@@ -53,6 +53,9 @@ function speakWord() {
         
         // Create a SpeechSynthesisUtterance object
         let utterance = new SpeechSynthesisUtterance(currentWord);
+
+        // Set the rate to slow down the speech
+        utterance.rate = 0.6;
         
         // Speak the word
         window.speechSynthesis.speak(utterance);
