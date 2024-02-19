@@ -417,8 +417,7 @@ copenhagen
 megaron
 chasm
 attorney
-bunsen
-burner
+bunsen burner
 sphagnum
 assam
 leks
